@@ -1,8 +1,6 @@
-import {convertInputFileToString} from "../utils/utils.js";
+import { convertInputFileToArray } from "../utils/utils.js";
 
-//read input file and convert to an array of each line
-const listsData = convertInputFileToString("src/day1/input.txt")
-  .split("\n");
+const listsData = convertInputFileToArray("src/day1/input.txt");
 
 const list1 = [];
 const list2 = [];
