@@ -9,5 +9,6 @@ if (day < 1 || day > dirCount) {
 }
 
 const { task1, task2 } = await import(`./src/day${day}/index.js`);
-console.log(task1());
-console.log(task2());
+console.log(`Day ${day}`);
+console.log("Task 1 -",task1());
+console.log("Task 2 -", task2());
